@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- Images du site de Nina Carducci -->
+    <url>
+        <loc>https://github.com/MarineLodynski/Nina-Carducci</loc>
+
+        <!-- Logo d'instagram-->
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/instagram.webp</image:loc>
+            <image:title>Logo d'Instagram</image:title>
+        </image:image>
+
+        <!-- Slider -->
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/slider/slide-ryoji-iwata.webp</image:loc>
+            <image:title>Slide avec des rayures noires et Ryoji Iwata en costume</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/slider/slide-nicholas-green.webp</image:loc>
+            <image:title>Slide avec une foule de monde pendant un concert</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/slider/slide-edward-cisneros.webp</image:loc>
+            <image:title>Slide avec du monde et un couple devenu marié qui s'embrasse</image:title>
+        </image:image>
+
+        <!-- Portrait de Nina -->
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/nina.webp</image:loc>
+            <image:title>Portrait de Nina</image:title>
+        </image:image>
+
+        <!-- Portfolio -->
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/gallery/concerts/concert-aaron-paul.webp</image:loc>
+            <image:title>Concert avec un public et une ambiance rouge</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/gallery/entreprise/business-ali-morshedlou.webp</image:loc>
+            <image:title>Portrait d'Ali en costume et cravate qui pose</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/gallery/entreprise/business-jason-goodman.webp</image:loc>
+            <image:title>Deux femmes bossant dont une qui sourit</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/gallery/mariage/wedding-hannah-busing.webp</image:loc>
+            <image:title>Les mains des mariés vont s'entrelacer</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/gallery/portraits/portrait-ade-tunji.webp</image:loc>
+            <image:title>Portrait d'un homme qui a les yeux fermés</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/gallery/mariage/wedding-jakob-owen.webp</image:loc>
+            <image:title>Couple marié souriant, devant un palmier</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/gallery/portraits/portrait-nino-van-prattenburg.webp</image:loc>
+            <image:title>Portrait d'une femme portant des lunettes qui regarde vers le bas</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/gallery/concerts/concert-austin-neill.webp</image:loc>
+            <image:title>Fumées bleue, blanche et rouge au concert d'Austin</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/gallery/entreprise/business-mateus-campos-felipe.webp</image:loc>
+            <image:title>Ordinateur et une femme qui rigole</image:title>
+        </image:image>
+
+
+        <!-- Caméra -->
+        <image:image>
+            <image:loc>https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/camera.webp</image:loc>
+            <image:title>Photo d'appareil photo</image:title>
+        </image:image>
+
+
+    </url>
+</urlset>
