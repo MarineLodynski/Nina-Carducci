@@ -17,39 +17,56 @@ Cache-Control: max-age=3600
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	
-		<!-- Balise Schema.org : référencement local -->
+
+    	<!-- OpenGraph Meta Facebook & Instagram -->
+    	<meta property="og:title" content="Photographe à Bordeaux">
+    	<meta property="og:type" content="website">
+    	<meta property="og:url" content="https://www.exemple.com">
+    	<meta property="og:image" content="https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/nina.webp">
+    	<meta property="og:description" content="Photographe établie à Bordeaux. Découvrez l'ensemble des prestations et services : portraits, événements spéciaux, instants inoubliables.">
+    	<meta property="og:site_name" content="Nina-Carducci">
+    	<meta property="og:locale" content="fr_FR">
+    	<meta property="og:see_also" content="https://www.instagram.com/ninacarducci.photo/?hl=fr">
+    
+    	<!-- Twitter Cards -->
+    	<meta name="twitter:card" content="summary_large_image">
+    	<meta name="twitter:title" content="Photographe à Bordeaux">
+    	<meta name="twitter:description" content="Photographe établie à Bordeaux. Découvrez l'ensemble des prestations et services : portraits, événements spéciaux, instants inoubliables.">
+    	<meta name="twitter:image" content="https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/nina.webp">
+
+		<!-- Balise Schema.org / Rich Snippets : référencement local -->
 		<script type="application/ld+json">
 			{
 			  "@context": "https://schema.org",
-			  "@type": "Photograph",
+			  "@type": "LocalBusiness",
 			  "name": "Nina Carducci",
 			  "address": {
 				"@type": "PostalAddress",
 				"streetAddress": "68 avenue Alsace-Lorraine",
 				"addressLocality": "Bordeaux",
 				"postalCode": "F-33200",
-				"addressCountry": "France"
+				"addressCountry": "FR"
 			  },
 			  "telephone": "+33556677889",
-			  "openingHoursSpecification": {
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
+			  "openingHoursSpecification": [
+				{
+				  "@type": "OpeningHoursSpecification",
+				  "dayOfWeek": [
 					"Monday",
 					"Tuesday",
 					"Wednesday",
 					"Thursday",
 					"Friday"
-				],
-				"opens": "10:00",
-				"closes": "19:00"
-			},
-			  "profession": "Photographe"
+				  ],
+				  "opens": "10:00",
+				  "closes": "19:00"
+				}
+			  ],
+			  "description": "Studio de photographie géré par Nina Carducci, spécialisée dans les portraits et la photographie de mariage. Tarifs :\n- 350€/demi-journée (matériel, déplacement et retouches inclus)\n- 50€/photo (2 AR par photo, album photos)\n- 400€ pour un album A4 de 30 pages recto/verso.",
+			  "priceRange": "€€",
+			  "image": "https://github.com/MarineLodynski/Nina-Carducci/blob/master/assets/images/nina.webp?raw=true"
 			}
-			</script>
-			
-	
-	
+		</script>
 	</head>
 	<body>
 		<header class="top-header">
@@ -66,7 +83,7 @@ Cache-Control: max-age=3600
 		</header>
 		<main>
 			<!-- Carrousel -->
-			<section id="header">
+			<div id="header">
 				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -93,7 +110,7 @@ Cache-Control: max-age=3600
 					<span class="visually-hidden">Next</span>
 				</button>
 				</div>
-			</section>
+			</div>
 			<!-- Informations Nina Carducci -->
 			<section id="about">
 				<div class="picture left">
@@ -111,15 +128,15 @@ Cache-Control: max-age=3600
 				<h2 class="title">Portfolio</h2>
 				<div class="container py-3">
 					<div class="gallery" style="display: none">
-						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-aaron-paul.webp" width="440" height="440" loading="lazy" alt="Concert avec un public et une ambiance rouge"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/business-ali-morshedlou.webp" width="440" height="440" loading="lazy" alt="Portrait d'Ali en costume et cravate qui pose"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/business-jason-goodman.webp" width="440" height="440" loading="lazy" alt="Deux femmes bossant dont une qui sourit"/>
-						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/wedding-hannah-busing.webp" width="440" height="440" loading="lazy" alt="Les mains des mariés vont s'entrelacer" />
-						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-ade-tunji.webp" width="440" height="440" loading="lazy" alt="Portrait d'un homme qui a les yeux fermés"/>
-						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/wedding-jakob-owen.webp" width="440" height="440" loading="lazy" alt="Couple marié souriant, devant un palmier"/>
-						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-nino-van-prattenburg.webp" width="440" height="440" loading="lazy" alt="Portrait d'une femme portant des lunettes qui regarde vers le bas"/>
-						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-austin-neill.webp" width="440" height="440" loading="lazy" alt="Fumées bleue, blanche et rouge au concert d'Austin"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/business-mateus-campos-felipe.webp" width="440" height="440" loading="lazy" alt="Ordinateur et une femme qui rigole"/>
+						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-aaron-paul.webp" width="440" height="440" loading="lazy" alt="Concert avec un public et une ambiance rouge">
+						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/business-ali-morshedlou.webp" width="440" height="440" loading="lazy" alt="Portrait d'Ali en costume et cravate qui pose">
+						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/business-jason-goodman.webp" width="440" height="440" loading="lazy" alt="Deux femmes bossant dont une qui sourit">
+						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/wedding-hannah-busing.webp" width="440" height="440" loading="lazy" alt="Les mains des mariés vont s'entrelacer">
+						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-ade-tunji.webp" width="440" height="440" loading="lazy" alt="Portrait d'un homme qui a les yeux fermés">
+						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/wedding-jakob-owen.webp" width="440" height="440" loading="lazy" alt="Couple marié souriant, devant un palmier">
+						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-nino-van-prattenburg.webp" width="440" height="440" loading="lazy" alt="Portrait d'une femme portant des lunettes qui regarde vers le bas">
+						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-austin-neill.webp" width="440" height="440" loading="lazy" alt="Fumées bleue, blanche et rouge au concert d'Austin">
+						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/business-mateus-campos-felipe.webp" width="440" height="440" loading="lazy" alt="Ordinateur et une femme qui rigole">
 					</div>
 				</div>
 				<div class="quote">
@@ -182,14 +199,14 @@ Cache-Control: max-age=3600
 				<div class="form-container">
 					<h2>Une question ? Une demande de devis ?</h2>
 					<p> N'hésitez pas à m'écrire ! Je vous répondrais en moins de 24 heures</p>
-					<form action="" method="post">
+					<form action="#" method="post">
 						<label>Nom</label>
 						<input type="text" name="nom" id="nom">
 						<label>Email</label>
 						<input type="email" name="email" id="email">
 						<label>Message</label>
 						<textarea name="message" id="message" cols="30" rows="10"></textarea>
-						<input type="submit" value="Envoyer"/>
+						<input type="submit" value="Envoyer">
 					</form>
 				</div>
 				<div class="picture right">
